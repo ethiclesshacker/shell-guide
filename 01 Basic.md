@@ -1,6 +1,3 @@
----
-permalink: /
----
 # Basic Command Line Utilities
 
 ## man
