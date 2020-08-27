@@ -1,3 +1,6 @@
+---
+permalink: /
+---
 # Basic Command Line Utilities
 
 ## man
@@ -63,7 +66,7 @@ The ls tool has many optional flags that are useful for advanced users.
     ```sh
     $ ls -ls
     ```
-    
+
 </details>
 
 
