@@ -34,10 +34,19 @@ The `ls` tool lists all files, folders, and even hidden ones with certain flags.
 $ ls
 Assignments Downloads Music Projects Shell Templates
 ```
+
+The `ls` tool also prints in a long list format with a lot of other data related to each file/directory in the present working directory, using the `-l` flag.
+
+```sh
+$ ls -l
+# Give output here.
+```
+
+
 <details>
 <summary> Advanced Uses </summary>
 
-The ls tool has many optional flags that are useful for advanced users.
+The `ls` tool has many optional flags that are useful for advanced users.
 
 - List hidden files and folders.
     ```sh
@@ -61,7 +70,7 @@ The ls tool has many optional flags that are useful for advanced users.
     ```
 - List everything sorted according to filesize while using the `-l` flag
     ```sh
-    $ ls -ls
+    $ ls -lS
     ```
 
 </details>
