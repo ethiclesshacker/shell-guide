@@ -12,7 +12,7 @@ The usage and purpose of the `man` tool is very simple. It gives a user manual o
 The what is command lists the first line, usually the name, from the `man` page of it's parameter.
 
 ```sh
-$ man bash
+$ whatis bash
 bash (1)      - GNU Bourne-Again SHell
 ```
 
