@@ -2,7 +2,6 @@
 
 
 ## Introduction
----
 
 This guide is for both users who are beginning to learn and use shell/bash commands and programming, and also for relatively advanced uses of some important tools. To make this guide both simple and extensive in nature, the advanced uses of all tools are written in a collapsible section under the specific tool; as shown below.
 
@@ -12,7 +11,6 @@ This guide is for both users who are beginning to learn and use shell/bash comma
 
 </details>
 
----
 
 ## Table of Contents
 
