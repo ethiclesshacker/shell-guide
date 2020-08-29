@@ -16,6 +16,7 @@ This guide is for both users who are beginning to learn and use shell/bash comma
 
 * Basic Command Line Utilities
     - man
+    - whatis
     - pwd
     - cd
     - ls
@@ -33,11 +34,7 @@ This guide is for both users who are beginning to learn and use shell/bash comma
     - mv
     - cp
     - rm
-    - whatis
-    - whereis
-    - which
     - find
-    - type
     - file
     - head
     - tail
