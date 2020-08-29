@@ -8,6 +8,14 @@ $ man man # Manual entry for the man tool
 ```
 The usage and purpose of the `man` tool is very simple. It gives a user manual of sorts for the tool. Every system utility and most tools installed via package manager (such as apt) have a man page where you can find all the commands, optional flags, and sometimes even basic use case statements.
 
+## whatis
+The what is command lists the first line, usually the name, from the `man` page of it's parameter.
+
+```sh
+$ man bash
+bash (1)      - GNU Bourne-Again SHell
+```
+
 ## pwd
 The directory the terminal is in, or the program is being run from is known as the **p**resent **w**orking **d**irectory. `pwd` returns the full path to the present working directory.
 ```sh
