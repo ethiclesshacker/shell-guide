@@ -108,10 +108,57 @@ $ tail -n 6 file.txt
 ```
 
 ## wc
+The `wc` tool is used to print the **word count** and more of a file. It can be used to print the number of lines, words, characters, and the number of bytes it's occupying.
+
+```sh
+$ wc data.txt
+ 5 15 73 data.txt
+```
+
+The output is in the following order:
+
+Number of lines : Use the `-l` flag
+Number of words : Use the `-w` flag
+Number of characters : Use the `-m` flag
+
+Also, we can print the size of the file in bytes, using the `-c` flag.
+
+```sh
+$ wc -c data.txt
+73 data.txt
+```
+
+Note that the file size is given in bytes, and is merely co-incidentally equal to the number of characters; and this may not be true for every file.
+
 
 ## cmp 
+The `cmp` tool is a good tool for finding if two files are equal or not. This is faster than the `diff` and `comm` tools because unlike them, it compares the files character by character and terminates the checking as soon as the first difference in the two files is found.
+
+```sh
+$ cmp data.txt data1.txt
+data.txt data1.txt differ: byte 1, line 1
+```
+
+The `cmp` tool does not give any output if the files are equal. This can be useful for scripting purposes.
 
 ## diff
+The `diff` tool is used to print all the difference between two files, similar in format to ".diff" files, which are also used to show the difference between files. The `diff` tool has several advanced flags and options that can be used to alter how the files are compared, and how the output is given, but; most of the use cases are out of scope for even the advanced details of this guide. 
 
+```sh
+$ diff data.txt data1.txt
+1,5c1,5
+< Hi    my name is
+< Aditya.
+< I use Ubuntu Budgie
+< It is great.
+< I love Ubuntu.
+---
+> IS
+> UBUNTU
+> is
+> kr
+> ubuntu
+```
+<-- Advanced uses -->
 ## comm
 
